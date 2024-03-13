@@ -169,6 +169,21 @@ img {
   display: none;
 }
 
+table {
+  width: 90%;
+  margin: 0 auto;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 10px;
+}
+
+tr:nth-of-type(odd) {
+  background-color: #d2b48e;
+}
+
 @media (min-width: 600px) {
   header {
     text-align: center;
