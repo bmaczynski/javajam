@@ -9,30 +9,19 @@
     />
     <link rel="stylesheet" href="javajam.css" />
   </head>
-
   <body>
     <div id="wrapper">
       <header>
         <h1>JavaJam Coffee Bar</h1>
       </header>
-
       <nav>
         <ul>
-          <li>
-            <a href="index.html">Home</a>
-          </li>
-          <li>
-            <a href="menu.html">Menu</a>
-          </li>
-          <li>
-            <a href="music.html">Music</a>
-          </li>
-          <li>
-            <a href="jobs.html">Jobs</a>
-          </li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="music.html">Music</a></li>
+          <li><a href="jobs.html">Jobs</a></li>
         </ul>
       </nav>
-
       <main>
         <div id="heroguitar"></div>
         <h2>Music at JavaJam</h2>
@@ -40,28 +29,38 @@
           The first Friday night each month at JavaJam is a special night. Join
           us from 8 pm to 11 pm for some music you won't want to miss!
         </p>
-
         <h4>January</h4>
         <div class="details">
           <img src="images/melaniethumb.jpg" alt="Photo of Melanie Morris" />
           <p>Morris entertains with her melodic folk style.</p>
+          <!-- Adding audio control for Melanie -->
+          <audio controls>
+            <source src="music/melanie.mp3" type="audio/mpeg" />
+            <source src="music/melanie.ogg" type="audio/ogg" />
+            Your browser does not support the audio element.
+            <a href="melanie.mp3">Download the song</a>.
+          </audio>
         </div>
-
         <h4>February</h4>
         <div class="details">
-          <a href="images/greg.jpg" target="_blank">
-            <img
+          <a href="images/greg.jpg" target="_blank"
+            ><img
               src="images/gregthumb.jpg"
               alt="Thumbnail of Greg"
               title="Click to view full image"
           /></a>
           <p>Tahoe Greg is back from his tour. New songs. New stories.</p>
+          <!-- Adding audio control for Greg -->
+          <audio controls>
+            <source src="music/greg.mp3" type="audio/mpeg" />
+            <source src="music/greg.ogg" type="audio/ogg" />
+            Your browser does not support the audio element.
+            <a href="greg.mp3">Download the song</a>.
+          </audio>
         </div>
       </main>
-
       <footer>
-        Copyright &copy; 2020 JavaJam Coffee House
-        <br />
+        Copyright &copy; 2020 JavaJam Coffee House<br />
         <a href="mailto:bmaczyns@student.scf.edu">bmaczns@student.scf.edu</a>
       </footer>
     </div>

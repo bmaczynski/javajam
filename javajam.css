@@ -10,6 +10,11 @@ body {
   background-repeat: no-repeat;
 }
 
+audio {
+  display: block;
+  margin-top: 1em;
+}
+
 header {
   background-color: #d2b48c;
   background-image: url("images/cup.jpg");
@@ -315,4 +320,8 @@ textarea {
       background-size: cover;
     }
   }
+}
+audio {
+  display: block;
+  margin-top: 1em;
 }
