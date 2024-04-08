@@ -212,6 +212,23 @@ textarea {
   margin-bottom: 0.5em;
 }
 
+.item {
+  background-color: #faf9f7;
+  margin: 1em;
+  padding: 1em;
+  overflow: auto;
+}
+
+.item img {
+  float: right;
+}
+
+#herocouch {
+  height: 300px;
+  background: url("images/herocouch.jpg") no-repeat;
+  background-size: 100%;
+}
+
 @media (min-width: 600px) {
   header {
     text-align: center;
